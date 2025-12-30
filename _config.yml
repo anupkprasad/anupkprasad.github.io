@@ -27,7 +27,7 @@ repository               : "academicpages/academicpages.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar: "anup_fig.png"
+  avatar: "anup_fig.jpg"
   name: "Anup K. Prasad"
   pronouns: # example: "she/her"
   bio: "Computational Biophysics | Molecular Dynamics | Machine Learning | Agentic AI"
