@@ -9,15 +9,15 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
-title: "Dr. Anup Prasad"
+title: "Dr. Anup K. Prasad"
 name: "Anup K. Prasad"
-email: "your_email@domain.edu"
-description: "Computational biophysicist working on molecular dynamics, kinases, and AI-driven protein modeling"
+email: "anup.prasad@uga.edu"
+description: "Computational biophysicist working on molecular dynamics, kinases, and AI-driven protein modelling"
 url: "https://anupkprasad.github.io"
 
 author:
   name: "Anup K. Prasad"
-  bio: "Computational Biophysics | Molecular Dynamics | Machine Learning for Proteins"
+  bio: "Computational Biophysics | Molecular Dynamics | Machine Learning | Agentic AI"
   location: "USA"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "academicpages/academicpages.github.io"
