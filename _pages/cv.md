@@ -8,57 +8,16 @@ redirect_from:
 ---
 
 {% include base_path %}
+<p>
+  <a class="button" href="{{ '/files/AnupPrasad_CV.pdf' | relative_url }}" download>Download CV (PDF)</a>
+</p>
 
-Education
-======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+<!-- Embed the PDF. Fallback text/link provided for browsers that don't support embedded PDFs. -->
+<div style="margin-top:1rem;">
+  <object data="{{ '/files/AnupPrasad_CV.pdf' | relative_url }}" type="application/pdf" width="100%" height="900">
+    <p>Your browser does not support displaying PDFs inline. You can <a href="{{ '/files/AnupPrasad_CV.pdf' | relative_url }}">download the CV (PDF)</a> instead.</p>
+  </object>
+</div>
 
-Work experience
-======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
-
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
-
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+<!-- Optional: small preview link for mobile users -->
+<p class="note">If the embedded preview does not appear on your device, use the download link above to get the PDF.</p>
