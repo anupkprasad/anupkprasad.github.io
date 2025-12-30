@@ -37,8 +37,8 @@ redirect_from:
 {% if gallery_files.size > 0 %}
 <div class="gallery-grid">
   {% for file in gallery_files %}
-    {% assign ext = file.extname | downcase %}
-    {% if ext == '.png' or ext == '.jpg' or ext == '.jpeg' or ext == '.gif' or ext == '.webp' %}
+  {% assign ext = file.extname | downcase %}
+  {% if ext == '.png' or ext == '.jpg' or ext == '.jpeg' or ext == '.gif' or ext == '.webp' or ext == '.svg' %}
       <figure class="gallery-item">
         <img src="{{ file.path | relative_url }}" alt="{{ file.name }}">
       </figure>
