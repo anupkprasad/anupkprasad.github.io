@@ -19,7 +19,10 @@ My overarching research goal is to develop scalable, automated, and interpretabl
 
 ## Current research
 
-<div class="section-with-logo">
+<div class="section-with-logo left">
+  <div class="section-logo">
+    <a href="https://www.uga.edu/"><img src="/images/uga_logo.png" alt="UGA logo"></a>
+  </div>
   <div class="section-text">
     <p>At the University of Georgia I focus on the dynamic regulation of kinases, investigating how conformational heterogeneity and disordered regions influence enzymatic activity and signaling.</p>
 
@@ -32,9 +35,12 @@ My overarching research goal is to develop scalable, automated, and interpretabl
 
     <p>By unifying these approaches I aim to produce interpretable, scalable workflows that reveal mechanisms of kinase regulation.</p>
   </div>
-  <div class="section-logo">
-    <a href="https://www.uga.edu/"><img src="/images/uga_logo.png" alt="UGA logo"></a>
-  </div>
+</div>
+
+
+<div class="logos-before">
+  <a href="https://iitbmonash.org/"><img src="/images/IITB_logo.png" alt="IITB–Monash logo"></a>
+  <a href="https://www.monash.edu/"><img src="/images/monash_logo.png" alt="Monash University logo"></a>
 </div>
 
 ## Past research experience

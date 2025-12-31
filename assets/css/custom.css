@@ -59,3 +59,37 @@
   .section-with-logo .section-logo { order: -1; margin-bottom: 0.75rem; }
   .section-with-logo .section-logo img { max-width: 160px; }
 }
+
+/* Headline styling specifically inside pages using the .with-univ-bg wrapper */
+.with-univ-bg h2 {
+  font-size: 1.9rem;
+  color: #0b4f6c; /* deep teal/blue */
+  font-weight: 700;
+  margin-top: 1.5rem;
+  margin-bottom: 0.6rem;
+  padding-left: 0.6rem;
+  border-left: 4px solid rgba(11,79,108,0.12);
+}
+.with-univ-bg h3 {
+  font-size: 1.25rem;
+  color: #133c4a;
+  margin-top: 1rem;
+}
+
+/* Variant: place logo left of the text (used when logo should appear before section) */
+.section-with-logo.left { flex-direction: row; }
+.section-with-logo.left .section-logo { order: 0; }
+.section-with-logo.left .section-text { order: 1; }
+
+@media (max-width: 800px) {
+  .section-with-logo.left { flex-direction: column; }
+  .section-with-logo.left .section-logo { order: -1; margin-bottom: 0.75rem; }
+}
+
+/* Logos that appear before a section (row of small logos above a heading) */
+.logos-before { display:flex; gap:1rem; align-items:center; margin-bottom:0.6rem; }
+.logos-before img { height:40px; opacity:1; display:block; }
+@media (max-width: 600px) {
+  .logos-before { justify-content:flex-start; gap:0.6rem; }
+  .logos-before img { height:34px; }
+}
