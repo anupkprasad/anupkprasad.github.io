@@ -1,0 +1,32 @@
+/* Custom styles for university background logos (applies where wrapper .with-univ-bg is used) */
+.with-univ-bg {
+  position: relative;
+  z-index: 1; /* content above background */
+}
+.with-univ-bg::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  /* Multiple logos: order is first drawn on top */
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  background-position: center top 40px, left bottom 20px, right bottom 20px;
+  background-size: 380px auto, 180px auto, 180px auto;
+  background-image: url('/images/uga_logo.png'), url('/images/IITB_logo.png'), url('/images/monash_logo.png');
+  opacity: 0.06; /* faint watermark */
+}
+.with-univ-bg > * { position: relative; z-index: 2; }
+
+/* Responsive tweaks */
+@media (max-width: 900px) {
+  .with-univ-bg::before {
+    background-position: center top 20px, left bottom 10px, right bottom 10px;
+    background-size: 240px auto, 120px auto, 120px auto;
+    opacity: 0.08;
+  }
+}
+
+/* Small helper for inline partner logos */
+.partner-logos { display:flex; gap:1rem; align-items:center; margin-top:0.75rem; }
+.partner-logos img { height:44px; opacity:0.95; }
