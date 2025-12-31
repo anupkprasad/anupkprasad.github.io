@@ -9,19 +9,19 @@ redirect_from:
 
 <div class="with-univ-bg">
 
-<h2>Intro</h2>
+<h2>Introduction</h2>
 
 <p>I am a Postdoctoral Associate at the University of Georgia (<a href="https://www.uga.edu/">UGA</a>), working in the laboratory of <a href="https://esbgkannan.github.io/">Dr. Kannan</a> on problems centered around kinase biology and regulation. My research lies at the intersection of computational biology, molecular simulations, and artificial intelligence, with a strong emphasis on integrating data-driven and physics-based approaches to study protein dynamics.</p>
 
-<h2>Research overview</h2>
+<h2>Research Overview</h2>
 
 <p>My overarching research goal is to develop scalable, automated, and interpretable computational frameworks that combine AI/ML, agentic AI systems, and molecular dynamics (MD) simulations to address fundamental questions in protein structure, dynamics, and function. I combine data-driven and physics-based methods to move beyond static structural descriptions toward predictive and mechanistic models of biomolecular behaviour.</p>
+
+<h2>Current research</h2>
 
 <div class="logos-before">
   <a href="https://www.uga.edu/"><img src="/images/uga_logo.png" alt="UGA logo"></a>
 </div>
-
-<h2>Current research</h2>
 
 <p>At the University of Georgia I focus on the dynamic regulation of kinases, investigating how conformational heterogeneity and disordered regions influence enzymatic activity and signaling.</p>
 
