@@ -63,9 +63,9 @@
 /* Headline styling specifically inside pages using the .with-univ-bg wrapper */
 .with-univ-bg h2 {
   font-size: 2.2rem;
-  color: #0b4f6c; /* deep teal/blue */
+  color: #e40788; /* deep teal/blue */
   font-weight: 700;
-  margin-top: 1.5rem;
+  margin-top: 1rem;
   margin-bottom: 0.6rem;
   padding-left: 0.6rem;
   border-left: 4px solid rgba(11,79,108,0.12);
@@ -88,7 +88,7 @@
 
 /* Logos that appear before a section (row of small logos above a heading) */
 .logos-before { display:flex; gap:1rem; align-items:center; margin-bottom:0.6rem; }
-.logos-before img { height:40px; opacity:1; display:block; }
+.logos-before img { height:400px; opacity:1; display:block; }
 @media (max-width: 600px) {
   .logos-before { justify-content:flex-start; gap:0.6rem; }
   .logos-before img { height:34px; }
@@ -99,7 +99,7 @@
 .logos-before img,
 .section-with-logo .section-logo img,
 .section-logo img {
-  height: 52px;
+  height: 200px;
   width: auto;
   opacity: 1;
   object-fit: contain;

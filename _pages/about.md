@@ -40,19 +40,12 @@ redirect_from:
   <a href="https://www.monash.edu/"><img src="/images/monash_logo.png" alt="Monash University logo"></a>
 </div>
 
-## Past research experience
 
-### Postdoctoral Research — IITB–Monash Research Academy
+<h2>Postdoctoral Research — IITB–Monash Research Academy</h2>
 
-After completing my Ph.D., I continued my research at the <a href="https://iitbmonash.org/">IITB–Monash Research Academy</a> supported by MDFI. There I expanded my focus on integrating AI and molecular dynamics to study complex biomolecular systems. Key outcomes included:
+After completing my Ph.D., I continued my research at the <a href="https://iitbmonash.org/">IITB–Monash Research Academy</a> supported by MDFI. There I expanded my focus on developing machine learning models for generative peptide design (amyloidogenic and antimicrobial peptides). This work marked my initial transition into AI-driven biomolecular modeling and shaped my longer-term research trajectory.
 
-- AI-driven analysis of molecular simulation data
-- Coupling ML models with physics-based simulations
-- Designing computational pipelines for large-scale, reproducible research
-
-This period provided the foundation for my current work on agentic AI frameworks for computational biology.
-
-### Ph.D. Research — IITB–Monash Research Academy
+<h2>Ph.D. Research — IITB–Monash Research Academy</h2>
 
 I began my doctoral studies in 2019 at the IITB–Monash Research Academy, a joint program between IIT Bombay (India) and Monash University (Australia). My doctoral research focused on:
 
@@ -62,18 +55,5 @@ I began my doctoral studies in 2019 at the IITB–Monash Research Academy, a joi
 
 Methodologies used included molecular dynamics simulations, biophysical experiments (CD, FTIR, DLS, TIRF), Python/Tcl programming, and bioinformatics-driven data analysis.
 
-### Earlier research — IIT Bombay
 
-Prior to and during my Ph.D., I worked at IIT Bombay developing machine learning models for generative peptide design (amyloidogenic and antimicrobial peptides). This work marked my initial transition into AI-driven biomolecular modeling and shaped my longer-term research trajectory.
 
-If you would like me to highlight specific publications, datasets, or figures on this page (or add links to slides and code), tell me which items to surface and I will add them.
-
-## Partner institutions
-
-<div class="partner-logos">
-  <a href="https://www.uga.edu/"><img src="/images/uga_logo.png" alt="UGA logo"></a>
-  <a href="https://iitbmonash.org/"><img src="/images/IITB_logo.png" alt="IITB–Monash logo"></a>
-  <a href="https://www.monash.edu/"><img src="/images/monash_logo.png" alt="Monash University logo"></a>
-</div>
-
-</div>
