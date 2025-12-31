@@ -30,3 +30,32 @@
 /* Small helper for inline partner logos */
 .partner-logos { display:flex; gap:1rem; align-items:center; margin-top:0.75rem; }
 .partner-logos img { height:44px; opacity:0.95; }
+
+/* Section layout with a logo on the side (used on About page 'Current research') */
+.section-with-logo {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  margin: 1.25rem 0;
+}
+.section-with-logo .section-text {
+  flex: 1 1 60%;
+}
+.section-with-logo .section-logo {
+  flex: 0 0 220px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.section-with-logo .section-logo img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  opacity: 1; /* make this logo fully opaque */
+}
+
+@media (max-width: 800px) {
+  .section-with-logo { flex-direction: column; align-items: stretch; }
+  .section-with-logo .section-logo { order: -1; margin-bottom: 0.75rem; }
+  .section-with-logo .section-logo img { max-width: 160px; }
+}

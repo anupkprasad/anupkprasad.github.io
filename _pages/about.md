@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Dr. Anup K. Prasad"
+title: ""
 author_profile: true
 redirect_from: 
   - /about/
@@ -9,25 +9,33 @@ redirect_from:
 
 <div class="with-univ-bg">
 
+## Intro
+
 I am a Postdoctoral Associate at the University of Georgia (<a href="https://www.uga.edu/">UGA</a>), working in the laboratory of <a href="https://esbgkannan.github.io/">Dr. Kannan</a> on problems centered around kinase biology and regulation. My research lies at the intersection of computational biology, molecular simulations, and artificial intelligence, with a strong emphasis on integrating data-driven and physics-based approaches to study protein dynamics.
 
 ## Research overview
 
-My overarching research goal is to develop scalable, automated, and interpretable computational frameworks that combine AI/ML, agentic AI systems, and molecular dynamics (MD) simulations to address fundamental questions in protein structure, dynamics, and function.
-
-I combine data-driven and physics-based methods to move beyond static structural descriptions toward predictive and mechanistic models of biomolecular behaviour.
+My overarching research goal is to develop scalable, automated, and interpretable computational frameworks that combine AI/ML, agentic AI systems, and molecular dynamics (MD) simulations to address fundamental questions in protein structure, dynamics, and function. I combine data-driven and physics-based methods to move beyond static structural descriptions toward predictive and mechanistic models of biomolecular behaviour.
 
 ## Current research
 
-At the University of Georgia I focus on the dynamic regulation of kinases, investigating how conformational heterogeneity and disordered regions influence enzymatic activity and signaling.
+<div class="section-with-logo">
+  <div class="section-text">
+    <p>At the University of Georgia I focus on the dynamic regulation of kinases, investigating how conformational heterogeneity and disordered regions influence enzymatic activity and signaling.</p>
 
-My current work integrates three complementary computational paradigms:
+    <p>My current work integrates three complementary computational paradigms:</p>
+    <ul>
+      <li>Agentic AI systems to automate and orchestrate complex research pipelines (simulation setup, analysis, and interpretation).</li>
+      <li>AI/ML models for data-driven analysis of large-scale simulation and structural datasets.</li>
+      <li>Molecular dynamics simulations for physics-based investigation of conformational landscapes and allosteric mechanisms.</li>
+    </ul>
 
-- Agentic AI systems to automate and orchestrate complex research pipelines (simulation setup, analysis, and interpretation).
-- AI/ML models for data-driven analysis of large-scale simulation and structural datasets.
-- Molecular dynamics simulations for physics-based investigation of conformational landscapes and allosteric mechanisms.
-
-By unifying these approaches I aim to produce interpretable, scalable workflows that reveal mechanisms of kinase regulation.
+    <p>By unifying these approaches I aim to produce interpretable, scalable workflows that reveal mechanisms of kinase regulation.</p>
+  </div>
+  <div class="section-logo">
+    <a href="https://www.uga.edu/"><img src="/images/uga_logo.png" alt="UGA logo"></a>
+  </div>
+</div>
 
 ## Past research experience
 
