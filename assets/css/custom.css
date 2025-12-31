@@ -86,10 +86,10 @@
 
 /* Logos that appear before a section (row of small logos above a heading) */
 .logos-before { display:flex; gap:1rem; align-items:center; margin-bottom:0.6rem; }
-.logos-before img { height:260px; opacity:1; display:block; }
+.logos-before img { height:130px; opacity:1; display:block; }
 @media (max-width: 900px) {
   .logos-before { justify-content:flex-start; gap:0.8rem; }
-  .logos-before img { height:140px; }
+  .logos-before img { height:70px; }
 }
 
 /* Uniform logo sizing across the page for inline and section logos */
@@ -97,7 +97,7 @@
 .logos-before img,
 .section-with-logo .section-logo img,
 .section-logo img {
-  height: 260px; /* ~5x the smaller default */
+  height: 130px; /* 50% smaller than before */
   width: auto;
   opacity: 1;
   object-fit: contain;
@@ -108,7 +108,7 @@
   .partner-logos img,
   .logos-before img,
   .section-with-logo .section-logo img,
-  .section-logo img { height: 140px; }
+  .section-logo img { height: 70px; }
 }
 
 /* Paragraph justification and strong highlighting */
@@ -117,13 +117,13 @@
   text-justify: inter-word;
 }
 .with-univ-bg strong {
-  color: #c0392b; /* highlight color for important words */
+  color: #000000; /* black color for important words */
   font-weight: 700;
 }
 
 /* Increase side logo container to accomodate larger images */
 .section-with-logo .section-logo {
-  flex: 0 0 300px;
+  flex: 0 0 150px;
 }
 
 @media (max-width: 900px) {
