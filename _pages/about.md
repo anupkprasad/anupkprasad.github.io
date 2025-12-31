@@ -35,25 +35,24 @@ redirect_from:
 <p>By unifying these approaches I aim to produce interpretable, scalable workflows that reveal mechanisms of kinase regulation.</p>
 
 
+<h2>Postdoctoral Research — IITB–Monash Research Academy</h2>
+
 <div class="logos-before">
   <img src="/images/IITB_logo.png" alt="IITB–Monash logo">
   <img src="/images/monash_logo.png" alt="Monash University logo">
 </div>
 
-
-<h2>Postdoctoral Research — IITB–Monash Research Academy</h2>
-
-After completing my Ph.D., I continued my research at the <a href="https://iitbmonash.org/">IITB–Monash Research Academy</a> supported by MDFI. There I expanded my focus on developing machine learning models for generative peptide design <strong>(amyloidogenic and antimicrobial peptides)</strong>. This work marked my initial transition into AI-driven biomolecular modeling and shaped my longer-term research trajectory.
+<p>After completing my Ph.D., I continued my research at the <a href="https://iitbmonash.org/">IITB–Monash Research Academy</a> supported by MDFI. There I expanded my focus on developing machine learning models for generative peptide design <strong>(amyloidogenic and antimicrobial peptides)</strong>. This work marked my initial transition into AI-driven biomolecular modeling and shaped my longer-term research trajectory.</p>
 
 <h2>Ph.D. Research — IITB–Monash Research Academy</h2>
 
-I began my doctoral studies in 2019 at the <strong>IITB–Monash Research Academy</strong>, a joint program between IIT Bombay (India) and Monash University (Australia). My doctoral research focused on:
+<p>I began my doctoral studies in 2019 at the <strong>IITB–Monash Research Academy</strong>, a joint program between IIT Bombay (India) and Monash University (Australia). My doctoral research focused on:
 
 - Structural dynamics of peptides
 - Peptide aggregation and amyloid formation
 - Structure–aggregation relationships in biologically relevant systems
 
-Methodologies used included molecular dynamics simulations, biophysical experiments <strong>(CD, FTIR, DLS, TIRF)</strong>, Python/Tcl/Bash programming for simulation and data analysis.
+Methodologies used included molecular dynamics simulations, biophysical experiments <strong>(CD, FTIR, DLS, TIRF)</strong>, Python/Tcl/Bash programming for simulation and data analysis.</p>
 
 
 
