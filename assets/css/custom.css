@@ -62,7 +62,7 @@
 
 /* Headline styling specifically inside pages using the .with-univ-bg wrapper */
 .with-univ-bg h2 {
-  font-size: 1.9rem;
+  font-size: 2.2rem;
   color: #0b4f6c; /* deep teal/blue */
   font-weight: 700;
   margin-top: 1.5rem;
@@ -92,4 +92,23 @@
 @media (max-width: 600px) {
   .logos-before { justify-content:flex-start; gap:0.6rem; }
   .logos-before img { height:34px; }
+}
+
+/* Uniform logo sizing across the page for inline and section logos */
+.partner-logos img,
+.logos-before img,
+.section-with-logo .section-logo img,
+.section-logo img {
+  height: 52px;
+  width: auto;
+  opacity: 1;
+  object-fit: contain;
+  display: block;
+}
+
+@media (max-width: 800px) {
+  .partner-logos img,
+  .logos-before img,
+  .section-with-logo .section-logo img,
+  .section-logo img { height: 40px; }
 }
