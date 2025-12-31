@@ -1,5 +1,3 @@
-# Welcome to Jekyll!
-#
 # This config file is meant for settings that affect your entire site, values
 # which you are expected to set up once and rarely need to edit after that.
 # For technical reasons, this file is *NOT* reloaded automatically when you use
@@ -30,11 +28,11 @@ author:
   avatar: "anup_fig.jpg"
   name: "Anup K. Prasad"
   pronouns: # example: "she/her"
-  bio: "Computational Biophysics | Molecular Dynamics | Machine Learning | Agentic AI"
-  location: "USA"
-  employer: ""
+  bio: "Biophysicist | Molecular Dynamics | Machine Learning | Agentic AI | Biophysical experiments"
+  location: "Georgia, USA"
+  employer: "The University of Georgia"
   uri: "https://sites.google.com/view/anup-k-prasad/research-project/current-project"
-  email: "anup.prasad@uga.edu"
+  email: "anup.prasad@uga.edu, anupkprasad121@gmail.com"
 
   # Academic websites
   academia: # URL
