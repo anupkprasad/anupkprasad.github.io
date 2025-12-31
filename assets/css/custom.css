@@ -85,10 +85,10 @@
 }
 
 /* Logos that appear before a section (row of small logos above a heading) */
-.logos-before { display:flex; gap:1rem; align-items:center; margin-bottom:0.6rem; }
+.logos-before { display:flex; gap:1rem; align-items:center; justify-content:center; margin-bottom:0.6rem; }
 .logos-before img { height:130px; opacity:1; display:block; }
 @media (max-width: 900px) {
-  .logos-before { justify-content:flex-start; gap:0.8rem; }
+  .logos-before { justify-content:center; gap:0.8rem; }
   .logos-before img { height:70px; }
 }
 
@@ -115,6 +115,7 @@
 .with-univ-bg p {
   text-align: justify;
   text-justify: inter-word;
+  margin: 0.75rem 0;
 }
 .with-univ-bg strong {
   color: #000000; /* black color for important words */
